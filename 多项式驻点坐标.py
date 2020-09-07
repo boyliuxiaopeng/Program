@@ -29,7 +29,7 @@ def nums(a,b,c,d,e,f):
     xs = np.roots(Q)
     print(xs)
     # 将横坐标带入多项式函数，得到纵坐标
-    #计算多项式的函数值。返回在xs处多项式的值，p为多项式系数，元素按多项式降幂排序。
+    # 计算多项式的函数值。返回在xs处多项式的值，p为多项式系数，元素按多项式降幂排序。
     Y = np.polyval(P, xs)
     print(Y)
     #plt.plot(x, y, ls='--', c='deeppink', label='')
